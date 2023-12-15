@@ -8,14 +8,14 @@ homepage: https://github.com/PayU-EMEA/PayU-Flutter
 issue_tracker: https://github.com/PayU-EMEA/PayU-Flutter/issues
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
-  flutter: ">=2.5.0"
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.16.3"
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.5
-  payu_core: 
+  http: ^1.1.0
+  payu_core:
     git:
       url: https://github.com/PayU-EMEA/PayU-Flutter.git
       path: payu_core
