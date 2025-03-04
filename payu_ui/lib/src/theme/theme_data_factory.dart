@@ -22,7 +22,6 @@ class ThemeDataFactory {
   static ThemeData _data(ThemeColorsPallete pallete) {
     return ThemeData(
       appBarTheme: _appBarTheme(pallete),
-      backgroundColor: pallete.secondaryGray4,
       buttonTheme: _buttonTheme(pallete),
       cardTheme: _cardTheme(pallete),
       colorScheme: _colorScheme(pallete),
